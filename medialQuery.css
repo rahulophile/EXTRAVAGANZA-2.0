@@ -4,20 +4,42 @@
       100vh - env(safe-area-inset-bottom)
     ); /* Adjust for mobile address bar */
     overflow-y: auto;
-    background:linear-gradient(rgba(0, 0, 0, 0.601), rgba(0, 0, 0, 0.6)), url(media/images/Mobile\ Bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.601), rgba(0, 0, 0, 0.6)),
+      url(media/images/Mobile\ Bg.jpg);
     background-size: cover;
     background-attachment: fixed;
   }
-  .navbar{
-    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.706), rgba(0, 0, 0, 0.455), rgba(70, 69, 69, 0));
+  .navbar {
+    background: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0),
+      rgba(0, 0, 0, 0.706),
+      rgba(0, 0, 0, 0.455),
+      rgba(70, 69, 69, 0)
+    );
   }
-  #about {
+  #about .aboutContainer {
+    padding: 0px 50px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
   }
-  #about div {
+  #about .aboutContainer div {
     width: 100%;
     overflow: hidden;
+  }
+  #about .aboutDiv {
+    padding: 0px;
+  }
+
+  .aboutDiv div {
+    height: 200px;
+    width: 100%;
+    box-shadow: none;
+  }
+  .aboutDiv div iframe {
+    box-shadow: -3px -3px 5px rgba(255, 255, 0, 0.3),
+      5px 5px 20px rgba(255, 255, 0, 0.8);
   }
   .navbar div:nth-child(odd) {
     display: none;
@@ -36,36 +58,35 @@
   #slider {
     visibility: visible;
   }
-  #about{
-    padding: 50px;
+  #about {
+    /* padding: 50px; */
   }
-  #about div p{
+  #about div p {
     font-size: 1em;
     line-height: 20px;
-    text-align:center;
+    text-align: center;
   }
-  #about div:nth-child(1){
+  #about div:nth-child(1) {
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #about div iframe{
+  #about div iframe {
     height: 200px;
   }
   #about img {
     width: 100%;
   }
-  .infoDiv{
+  .infoDiv {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .infoDiv div{
+  .infoDiv div {
     width: 90vw;
     height: 100vh;
     background-image: url(media/images/graduation-scroll.jpg);
-  
   }
   .footerContent {
     display: none;
@@ -75,5 +96,13 @@
     justify-content: space-around;
     align-items: center;
     gap: 100px;
+  }
+  .events div{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .events div .eventCard{
+    width: 250px;
+    height: 300px;
   }
 }
