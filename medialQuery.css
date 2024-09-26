@@ -1,4 +1,8 @@
 @media only screen and (max-width: 600px){
+    body{
+        height: calc(100vh - env(safe-area-inset-bottom)); /* Adjust for mobile address bar */
+    overflow-y: auto;
+    }
     #about{
         display: flex;
         flex-direction: column;
