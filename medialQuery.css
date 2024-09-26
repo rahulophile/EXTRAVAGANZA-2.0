@@ -8,6 +8,9 @@
     background-size: cover;
     background-attachment: fixed;
   }
+  .navbar{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.706), rgba(0, 0, 0, 0.455), rgba(70, 69, 69, 0));
+  }
   #about {
     display: flex;
     flex-direction: column;
@@ -52,6 +55,17 @@
   }
   #about img {
     width: 100%;
+  }
+  .infoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .infoDiv div{
+    width: 90vw;
+    height: 100vh;
+    background-image: url(media/images/graduation-scroll.jpg);
+  
   }
   .footerContent {
     display: none;
