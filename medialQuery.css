@@ -36,6 +36,11 @@
   #about{
     padding: 50px;
   }
+  #about div p{
+    font-size: 1em;
+    line-height: 20px;
+    text-align:center;
+  }
   #about div:nth-child(1){
     overflow: hidden;
     display: flex;
