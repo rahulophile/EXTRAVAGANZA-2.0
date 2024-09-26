@@ -22,6 +22,9 @@
         top: 0;
         left: 0;
     } */
+    #eventTitleText h1{
+        font-size: 1.5em;
+    }
     #slider{
         visibility: visible;
     }
