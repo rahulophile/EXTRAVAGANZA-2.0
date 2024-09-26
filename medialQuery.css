@@ -10,6 +10,9 @@
     .navbar div:nth-child(odd){
         display: none;
     }
+    .menuNav{
+        display: block;
+    }
     /* .navbar div:nth-child(even){
         position: fixed;
         top: 0;

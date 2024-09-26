@@ -79,6 +79,9 @@ body{
     border-bottom: 2px solid yellow;
     border-radius: 0 0 0 50px;
 }
+.menuNav{
+    display: none;
+}
 .menuNav ul li{
     list-style: none;
 }
