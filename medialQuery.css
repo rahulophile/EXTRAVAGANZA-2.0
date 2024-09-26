@@ -55,9 +55,9 @@
   #eventTitleText h1 {
     font-size: 1.5em;
   }
-  #slider {
+  /* #slider {
     visibility: visible;
-  }
+  } */
   #about {
     /* padding: 50px; */
   }
@@ -97,11 +97,11 @@
     align-items: center;
     gap: 100px;
   }
-  .events div{
+  .events div {
     flex-direction: column;
     gap: 50px;
   }
-  .events div .eventCard{
+  .events div .eventCard {
     width: 250px;
     height: 300px;
   }
