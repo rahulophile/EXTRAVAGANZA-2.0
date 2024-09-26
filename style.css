@@ -11,7 +11,7 @@ body{
     min-height: 100vh;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     background:linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.8)), url(website\ background.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -22,7 +22,7 @@ body{
     font-style: normal;
     color: white;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 30px;
     word-spacing: 0px;
     text-align: justify;
 }
@@ -181,10 +181,27 @@ body{
 #about{
     display: flex;
     justify-content: space-around;
-    padding: 30px;
-    gap: 20px;
+    padding: 30px 100px;
+    gap: 30px;
     font-size: 16px
 }
 #about div{
     width: 100%;
+    overflow: hidden;
+}
+#about .aboutDiv{
+    overflow: hidden;
+    padding: 30px;
+    /* padding: 100px; */
+}
+#about div div {
+    overflow: hidden;
+}
+#aboutText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about div p{
+    font-size: 1.1em;
 }
