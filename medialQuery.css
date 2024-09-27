@@ -1,13 +1,10 @@
 @media only screen and (max-width: 600px) {
   body {
-    /* height: calc(
-      100vh - env(safe-area-inset-bottom)
-    ); Adjust for mobile address bar */
-    overflow-y: auto;
-    background: linear-gradient(rgba(0, 0, 0, 0.601), rgba(0, 0, 0, 0.6)),
+    
+    /* background: linear-gradient(rgba(0, 0, 0, 0.601), rgba(0, 0, 0, 0.6)),
       url(media/images/Mobile\ Bg.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
   }
   .navbar {
     background: linear-gradient(
