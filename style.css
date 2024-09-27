@@ -167,6 +167,7 @@ body.fade-out {
     border-radius: 50px 0 0 0;
 }
 #home{
+    overscroll-behavior: none;
     width: 100%;
     min-height: 100vh;
     position: absolute;
