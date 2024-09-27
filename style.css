@@ -13,8 +13,6 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    overflow-y: auto;
-    overscroll-behavior-y: none;
     overflow: hidden;
     background-image :linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.8)), url('website-background.jpg');
     transition: background-image 0.5s ease;
