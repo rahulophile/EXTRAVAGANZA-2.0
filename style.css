@@ -29,7 +29,6 @@ body{
     line-height: 30px;
     word-spacing: 0px;
     text-align: justify;
-    position: relative;
     overscroll-behavior: none;
 }
 body.fade-out {
