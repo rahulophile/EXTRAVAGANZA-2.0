@@ -45,12 +45,6 @@
   #eventTitleText h1 {
     font-size: 1.5em;
   }
-  /* #slider {
-    visibility: visible;
-  } */
-  #about {
-    /* padding: 50px; */
-  }
   #about div p {
     font-size: 1em;
     line-height: 20px;
@@ -73,11 +67,11 @@
     align-items: center;
     justify-content: center;
   }
-  .infoDiv div {
+  /* .infoDiv div {
     width: 90vw;
     height: 100vh;
     background-image: url(media/images/graduation-scroll.jpg);
-  }
+  } */
   .footer{
     display: none;
   }
@@ -88,7 +82,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 100px;
+    gap: 0px;
   }
   .events div {
     flex-direction: column;
