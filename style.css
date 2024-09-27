@@ -41,6 +41,7 @@ body.fade-out {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 999;
 }
 .sidebar{
     backdrop-filter: blur(10px);
@@ -169,16 +170,61 @@ body.fade-out {
     border-top: 2px solid yellow;
     border-radius: 50px 0 0 0;
 }
-.section{
-    width: 100vw;
-    z-index: -1;
+#home{
+    width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    position: relative;
+    top: 0;
+    left: 0;
+    /* background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("website-background.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* /* transition: 3s;  */
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode:forwards ;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    /* animation: animate 26s ease-in-out infinite; */
 }
+.innerSection{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+}
+@keyframes animate {
+    0%{
+        background-image:url(mobile-bg.jpg);
+    }
+    20%{
+        background-image:url(website-background.jpg);
+    }
+    40%{
+        background-image:url(mobile-bg.jpg);
+    }
+    60%{
+        background-image:url(website-background.jpg);
+    }
+    80%{
+        background-image:url(mobile-bg.jpg);
+    }
+    100%{
+        background-image: url(website-background.jpg);
+    }
+}
+
+
 .afterSection{
     height: 30vh;
     width: 100vw;
     background: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0, 0, 0, 0.205), rgba(59, 59, 59, 0.04));
+    /* background-color: red; */
 }
 #about{
     height: 100vh;
@@ -279,4 +325,31 @@ body.fade-out {
 }
 #moreEventsButton{
     margin-top: 50px;
+}
+.addressBar{
+    height: 30vh;
+    width: 100vw;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0, 0, 0, 0.205), rgba(59, 59, 59, 0.04));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.addressBar div:nth-child(1){
+    width: 100%;
+    display: flex;
+    padding: 0px 90px;
+    justify-content: space-around;
+    align-items: center;
+}
+.addressBar div:nth-child(1) a img{
+    height: 20px;
+}
+
+.addressBar div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 10px 0px;
+    font-size: 22px;
 }

@@ -88,6 +88,9 @@
     height: 100vh;
     background-image: url(media/images/graduation-scroll.jpg);
   }
+  .footer{
+    display: none;
+  }
   .footerContent {
     display: none;
   }
@@ -104,5 +107,8 @@
   .events div .eventCard {
     width: 250px;
     height: 300px;
+  }
+  .addressBar div p{
+    font-size: 15px;
   }
 }
