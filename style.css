@@ -30,6 +30,7 @@ body{
     word-spacing: 0px;
     text-align: justify;
     position: relative;
+    background-attachment: scroll;
 }
 body.fade-out {
     transition: background-image 0s ease; /* Prevent image transition while fading out */
