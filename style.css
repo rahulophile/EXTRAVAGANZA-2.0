@@ -8,7 +8,6 @@
 }
 html{
     height: 100%;
-    overflow: hidden;
     scrollbar-width: none;
     scroll-behavior: smooth;
 }
@@ -20,7 +19,6 @@ body{
     background-attachment:fixed;
     background-position: center;
     transition: background-image 0.5s ease;
-    overflow-x: hidden;
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -30,7 +28,6 @@ body{
     line-height: 30px;
     word-spacing: 0px;
     text-align: justify;
-    overscroll-behavior: none;
 }
 body.fade-out {
     transition: background-image 0s ease; /* Prevent image transition while fading out */
