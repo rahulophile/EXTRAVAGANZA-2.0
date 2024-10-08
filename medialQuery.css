@@ -88,10 +88,10 @@
     flex-direction: column;
     gap: 50px;
   }
-  .events div .eventCard {
+  /* .events div .eventCard {
     width: 250px;
     height: 300px;
-  }
+  } */
   .addressBar div p{
     font-size: 15px;
   }
