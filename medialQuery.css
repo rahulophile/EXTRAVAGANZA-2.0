@@ -1,4 +1,11 @@
 @media only screen and (max-width: 600px) {
+  .innerDetails{
+    padding: 0px 20px;
+    font-size: 12px;
+  }
+  #home{
+    background-image:url("media/images/mob_bg.jpg");
+  }
   .navbar {
     background: linear-gradient(
       to bottom,

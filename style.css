@@ -26,7 +26,7 @@ body {
   overflow-y: scroll;
 }
 .websiteContainer{
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("media/images/pc_bg.jpg");
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("media/images/pc_bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -179,6 +179,9 @@ body {
   animation-timing-function: ease-in-out;
   /* animation: animate 26s ease-in-out infinite; */
   position: relative;
+}
+.innerDetails{
+  font-size: 25px;
 }
 .innerSection {
   position: absolute;
