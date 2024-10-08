@@ -84,9 +84,12 @@
     align-items: center;
     gap: 0px;
   }
-  .events div {
+  .events div, .competitions div {
     flex-direction: column;
     gap: 50px;
+  }
+  .events, .competitions{
+    margin-top: 100px;
   }
   /* .events div .eventCard {
     width: 250px;
