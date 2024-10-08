@@ -12,12 +12,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  z-index: -1;
+  z-index: -1111;
   width: 100vw;
   background: #0b0c10;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
   font-family: "SUSE", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -26,6 +23,17 @@ body {
   font-size: 20px;
   text-align: justify;
   overflow-x: hidden;
+  overflow-y: scroll;
+}
+.websiteContainer{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("website-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100vw;
 }
 .navbar {
   width: 100%;
@@ -304,7 +312,7 @@ body {
   padding: 20px;
   overflow: hidden;
 }
-#event-poster{
+#event-poster {
   height: 300px;
   width: 100%;
   background: url(media/images/rangoli-banner.jpg);
@@ -314,12 +322,12 @@ body {
   border-radius: 10px;
   border: 0.5px solid red;
 }
-#event-details{
+#event-details {
   height: 150px;
   width: 100%;
   font-size: 16px;
 }
-.eventCard div h2{
+.eventCard div h2 {
   margin: 0;
   padding: 0;
   color: yellow;
