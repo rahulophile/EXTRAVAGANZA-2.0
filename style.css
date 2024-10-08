@@ -281,7 +281,7 @@ body{
     align-items: center;
 }
 .events div .eventCard{
-    height: 400px;
+    height: 450px;
     width: 300px;
     background:rgba(255, 0, 0,0.1);
     backdrop-filter: blur(0px);
@@ -293,7 +293,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 7px;
     padding: 30px 30px;
     overflow: hidden;
 }
