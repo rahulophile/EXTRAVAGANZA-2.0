@@ -26,7 +26,7 @@ body {
   overflow-y: scroll;
 }
 .websiteContainer{
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("website-background.jpg");
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("media/images/pc_bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -301,7 +301,7 @@ body {
   color: rgb(231, 226, 226);
   backdrop-filter: blur(0px);
   border: 5px solid rgba(247, 103, 6, 0.3);
-  background-color: rgba(143, 6, 6, 0.88);
+  background-color: rgba(143, 6, 6, 0.433);
   /* box-shadow: -5px -5px 10px rgba(255, 0, 0, 0.5),5px 5px 10px rgba(255, 0, 0, 0.5); */
   border-radius: 20px;
   display: flex;
@@ -372,9 +372,9 @@ body {
 .competitions div .competitionCard {
   height: 450px;
   width: 300px;
-  background: rgba(1, 111, 255, 0.371);
+  background: rgba(1, 111, 255, 0.245);
   color: rgb(231, 226, 226);
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(0px);
   border: 5px solid rgba(6, 191, 247, 0.3);
   /* box-shadow: -5px -5px 10px rgba(255, 0, 0, 0.5),5px 5px 10px rgba(255, 0, 0, 0.5); */
   border-radius: 20px;
