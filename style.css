@@ -294,7 +294,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 7px;
-    padding: 30px 30px;
+    padding: 20px;
     overflow: hidden;
 }
 .eventCard{
