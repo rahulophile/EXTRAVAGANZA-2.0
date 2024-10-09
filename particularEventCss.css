@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+    overflow-y: scroll;
+    color: white;
+    font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.particularEventParent{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("media/images/pc_bg.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+.leftArea{
+    width: 30%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 20px;
+}
+.leftArea img{
+    width:100%;
+    height: 200px;
+    border: 2px solid rgba(255, 0, 0, 0.282);
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(233, 2, 2, 0.634), -5px -5px 20px rgba(233, 2, 2, 0.634);
+}
+.leftArea h1{
+    color: rgba(255, 9, 9, 0.774);
+}
+.leftArea div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.leftArea button{
+    padding: 10px 20px;
+    background: rgba(255, 0, 0, 0.224);
+    color: white;
+    font-size: 1em;
+    border: 2px solid red;
+    border-radius: 20px;
+    backdrop-filter: blur(30px);
+}
+.leftArea button:hover{
+    cursor: pointer;
+    background: rgba(255, 0, 0, 0.467);
+    box-shadow: 5px 5px 10px rgba(233, 2, 2, 0.634), -5px -5px 10px rgba(233, 2, 2, 0.634);
+}
+.middleArea{
+    width: 5px;
+    height: 70vh;
+    background: rgba(255, 255, 0, 0.499);
+}
+.rightArea{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* .rightArea nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightArea nav ul li{
+    list-style: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.rightArea nav ul li:focus{
+    color: red;
+    outline: 2px solid yellow
+}
+.eventDescription{
+    width: 100%;
+    height: 300px;
+    border: 4px solid rgba(245, 4, 4, 0.553);
+    border-radius: 20px;
+    margin-top: 20px;
+} */
+.eventOverview{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+} 
+.eventOverview div:nth-child(odd){
+    width: 25%;
+    padding: 0px 15px;
+    text-align: justify;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.eventOverview h4{
+    text-align: center;
+    margin-bottom: 10px;
+    color: red;
+}
+.verticalLine{
+    height: 200px;
+    width: 2px;
+    background: red;
+}

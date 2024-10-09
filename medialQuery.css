@@ -1,10 +1,10 @@
 @media only screen and (max-width: 600px) {
-  .innerDetails{
+  .innerDetails {
     padding: 0px 20px;
     font-size: 12px;
   }
-  #home{
-    background-image:url("media/images/mob_bg.jpg");
+  #home {
+    background-image: url("media/images/mob_bg.jpg");
   }
   .navbar {
     background: linear-gradient(
@@ -79,7 +79,7 @@
     height: 100vh;
     background-image: url(media/images/graduation-scroll.jpg);
   } */
-  .footer{
+  .footer {
     display: none;
   }
   .footerContent {
@@ -91,21 +91,55 @@
     align-items: center;
     gap: 0px;
   }
-  .events div, .competitions div {
+  .events div,
+  .competitions div {
     flex-direction: column;
     gap: 50px;
   }
-  .events, .competitions{
+  .events,
+  .competitions {
     margin-top: 100px;
   }
   /* .events div .eventCard {
     width: 250px;
     height: 300px;
   } */
-  .addressBar div p{
+  .addressBar div p {
     font-size: 15px;
   }
-  .addressBar div:nth-child(1){
+  .addressBar div:nth-child(1) {
     visibility: visible;
+  }
+
+  /* Events Wale Page ka mediaQuery */
+
+  .eventsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  /* Particular Event Wale Page ka */
+  .leftArea button{
+    font-size: 10px;
+    padding: 7px 15px;
+  }
+  .middleArea{
+    display: none;
+  }
+  .particularEventParent div:nth-child(odd){
+    width: 100%;
+  }
+  .particularEventParent {
+    flex-direction: column
+  }
+  .eventOverview div:nth-child(even){
+    display: none;
+  }
+  .eventOverview{
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+  }
+  .rightArea{
+    padding: 50px;
   }
 }
