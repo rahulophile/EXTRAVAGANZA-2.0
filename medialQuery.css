@@ -142,4 +142,36 @@
   .rightArea{
     padding: 50px;
   }
+
+  /* Timeline wala page ke liye */
+
+  .timeline{
+    margin: 50px auto;
+  }
+  .timeline::after{
+    left: 31px;
+  }
+  .container{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+  .textBox{
+    font-size: 13px;
+  }
+  .textBox small{
+    margin-bottom: 10px;
+  }
+  .rightContainer{
+    left: 0;
+  }
+  .leftContainer img, .rightContainer img{
+    left: 10px;
+  }
+  .leftContainerArrow, .rightContainerArrow{
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
+  }
 }
+
