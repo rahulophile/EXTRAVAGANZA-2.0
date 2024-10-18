@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+    overflow-y: scroll;
+    font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  text-align: start;
+}
+.updatesParent{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("media/images/pc_bg.jpg");
+    padding: 50px;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.updatesParent p{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px){
+    .updatesParent h2{
+        font-size: 25px;
+    }
+    .updatesParent p{
+        font-size: 10px;
+        width: 300px;
+    }
+}
